@@ -26,8 +26,8 @@ namespace BFS
         {
 
             Node tree = createTree();
-            Console.WriteLine("================BFS=============");
-            BFSTraversal.traversBFS(tree);
+            Console.WriteLine("================DFS=============");
+            DFS.dfsTraversal(tree);
         }
     }
 }
